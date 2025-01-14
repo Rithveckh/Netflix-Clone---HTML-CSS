@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: aliceblue;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding:10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px ;
+    cursor: pointer;
+}
+.lanbtn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+}
+.lanbtn img{
+    width: 10px;
+    margin-left: 10px;
+}
+form button{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px ;
+    cursor: pointer;
+}
+.header-content{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 42px;
+}
+.email-signup{
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items:centre;
+}
+.gsbtn img {
+    width: 10px;
+    margin-left: 10px;
+} 
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    padding: 20px 40px; 
+}
+.more{
+    padding-top: 8%;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.features div{
+    background: linear-gradient(to right, #0b1a34, #2d0d3a);
+    padding: 10px;
+    line-height: 33px;
+}
+.box-1{
+    flex: 1;
+    border-radius: 4px;
+}
+.box-2{
+    flex: 1;
+    border-radius: 4px;
+}
+.box-3{
+    flex: 1;
+    border-radius: 4px;
+}
+.box-1 p{
+    font-size: 15px;
+}
+.box-2 p{
+    font-size: 15px;
+}
+.box-3 p{
+    font-size: 15px;
+}
+.box-1 img{
+    display: block;
+    margin-left: auto;
+}
+.box-2 img{
+    display:block;
+    margin-top: 8%;
+    margin-left: auto;
+}
+.box-3 img{
+    display: block;
+    margin-left: auto;
+}
+.mrtj{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
